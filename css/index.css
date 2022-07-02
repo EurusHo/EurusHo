@@ -18,7 +18,7 @@ nav a {
 	padding: 14px 20px;
 	display: block;
 	/*text-align: center*/;
-	text-decoration: none;
+/* 	text-decoration: none; */
 }
 nav a.menul{
 	float: left
@@ -47,7 +47,7 @@ h2{
 	padding: 14px 10px;
 	margin: 0
 }
- #contact{ 
+#contact{ 
 	 margin:0
 }
 #container{
