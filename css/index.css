@@ -125,9 +125,9 @@ font-style: italic;
 }
 @media(max-width: 800px) 
 {
-	* {
+/* 	* {
 	background: #99d1c1;
-	color: black}
+	color: black} */
 	#left{
 		flex: 100%;
 	}
@@ -135,7 +135,7 @@ font-style: italic;
 		flex: 100%;
 	}
 	#container{
-		flex-wrap: wrab;
+		flex-wrap: wrap;
 	}
 	.melody_item{
 		flex: 50%;
@@ -143,9 +143,9 @@ font-style: italic;
 }
 @media(max-width: 400px) 
 {
-	* {
-	background: #fc9faf;
-	color: black}
+/* 	* {
+	background: #99d1c1;
+	color: black} */
 	#left{
 		flex: 100%;
 	}
@@ -153,6 +153,6 @@ font-style: italic;
 		flex: 100%;
 	}
 	#container{
-		flex-wrap: wrab;
+		flex-wrap: wrap;
 	}
 }
