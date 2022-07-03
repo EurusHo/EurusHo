@@ -33,6 +33,7 @@ nav a:hover{
 h2{
 	color: #327069;
 	padding: 14px 10px;
+	margin: 0;
 }
 #left{
 	flex: 30%;
