@@ -18,7 +18,7 @@ nav a {
 	padding: 14px 20px;
 	display: block;
 	/*text-align: center*/;
-/* 	text-decoration: none; */
+	text-decoration: none;
 }
 nav a.menul{
 	float: left
@@ -129,14 +129,14 @@ font-style: italic;
 }
 @media(max-width: 800px) 
 {
-/* 	* {
-	background: #99d1c1;
-	color: black} */
+	*{margin: 0;
+	}
 	#left{
 		flex: 100%;
 	}
 	#right{
 		flex: 100%;
+		/*background: #99d1c1;*/
 	}
 	#container{
 		flex-wrap: wrap;
@@ -151,12 +151,22 @@ font-style: italic;
 	nav #menu a{
 	float: none;
 	}
-}
-@media(max-width: 400px) 
+	/*hoặc nav a.menur{
+		float: none;
+		}
+		nav a.menul{
+		float: none;
+	}*/
+	#zalo{
+		display: block;
+		margin: auto;
+	}
+}	
+/*@media(max-width: 400px) 
 {
-/* 	* {
+	* {
 	background: #99d1c1;
-	color: black} */
+	color: black}
 	#left{
 		flex: 100%;
 	}
@@ -166,4 +176,4 @@ font-style: italic;
 	#container{
 		flex-wrap: wrap;
 	}
-}
+}*/
