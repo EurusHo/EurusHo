@@ -144,12 +144,27 @@ font-style: italic;
 	.melody_item{
 		flex: 50%;
 	}
+	#resume{
+		padding: 14px 20px;
+		font-size: 25px;
+		background: white;
+	}
+	nav{
+		list-style-type: none;
+	  /*border: 1px solid white;*/
+		}
 	nav a{
 		text-align: center;
 		display: block;
+		border-bottom: 1px solid white;
+		background-color: #327069;
+  	color: white;
 	}
 	nav #menu a{
 	float: none;
+	}
+	#it{
+		padding: 0px 20px 14px 20px;
 	}
 	/*hoặc nav a.menur{
 		float: none;
